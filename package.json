@@ -1,0 +1,16 @@
+{
+  "name": "backupstagram",
+  "version": "0.0.0",
+  "description": "Tool for backing up your instagram account including photos, videos, descriptions, dates, likes, and comment counts.",
+  "main": "backupstagram.js",
+  "scripts": {
+    "start": "node backupstagram.js"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "instagram-screen-scrape": "git+https://github.com/AlexBezuska/instagram-screen-scrape#da2c69ecf425f016402ef9628d7bc58d544b6db2",
+    "moment": "^2.18.1",
+    "require": "^2.4.20"
+  }
+}
