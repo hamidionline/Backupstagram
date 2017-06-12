@@ -9,6 +9,18 @@ Tool for backing up your Instagram account including photos, videos, description
 - Node.js
   - [Install Node.js](https://nodejs.org/en/)
 
+- Git (optional)
+	- [https://git-scm.com/](https://git-scm.com/)
+  
+## Installation
+
+- In your terminal clone this github repo `git clone git@github.com:AlexBezuska/Backupstagram.git` (git required)
+	
+	**or** Download the zip of the project [Backupstagram Zip](https://github.com/AlexBezuska/Backupstagram/archive/master.zip) (git not required)
+- Install dependencies
+	- In your terminal, inside the folder for this project run `npm install`, this will download all the projects required packages from NPM (Node Package Manager)
+
+
 ## How to use
 
 - Duplicate `config-sample.json` and name it `config.json`
